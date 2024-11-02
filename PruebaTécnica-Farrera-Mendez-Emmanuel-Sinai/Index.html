@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba Técnica Hábil</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <main class="page">
+        <h1>Registro</h1>
+        <form id="employeeForm">
+            <div class="form-group">
+                <label for="name">Nombre</label>
+                <input type="text" id="name" name="name" placeholder="Ingrese su nombre" required>
+            </div>
+
+            <div class="form-group">
+                <label for="lastname">Apellido Paterno</label>
+                <input type="text" id="lastName" name="lastName" placeholder="Ingrese su apellido paterno" required>
+            </div>
+
+            <div class="form-group">
+                <label for="middleName">Apellido Materno</label>
+                <input type="text" id="middleName" name="middleName" placeholder="Ingrese su apellido materno" required>
+            </div>
+
+            <div class="form-group">
+                <label for="bornDate">Fecha de nacimiento</label>
+                <input type="date" id="bornDate" name="bornDate" placeholder="Ingrese su apellido materno" required>
+            </div>
+
+            <div class="form-group">
+                <label for="area">Área</label>
+                <input type="text" id="area" name="area" placeholder="Ingrese el área de trabajo" required>
+            </div>
+
+            <div class="container">
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+
+        <h1>Listado de Empleados</h1>
+
+        <table id="employeeTable">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellido Paterno</th>
+                    <th>Apellido Materno</th>
+                    <th>Fecha de Nacimiento</th>
+                    <th>Área</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </main>
+    <script src="script.js"></script>
+</body>
+<footer>
+</footer>
+
+</html>

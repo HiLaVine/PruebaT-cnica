@@ -1,0 +1,114 @@
+html {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+.body {
+    color: #333;
+    background-color: #f8f8f8;
+}
+
+.page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label,
+input {
+    vertical-align: middle;
+}
+
+label,
+input{
+    width: 100%;
+}
+
+input[type="text"],
+input[type="date"]{
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    padding: 10px;
+    color: #333;
+}
+
+label,
+legend {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #444;
+}
+
+.help {
+    font-size: 12px;
+    color: #777;
+    margin: 8px 0 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding: 16px 60px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 1px solid #713f12;
+    background-color: #eab308;
+    color: #333;
+    text-shadow: -1px -1px 0 rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    
+}
+
+button:hover {
+    background-color: #f0c14b;
+}
+
+button:active {
+    background-color: #eab308;
+    box-shadow: inset -1px -1px 0 rgba(0, 0, 0, 0.5);
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    overflow: hidden;
+    overflow-x:auto;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    color: #333;
+}
+
+th {
+    background-color: #eab308;
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+
+
